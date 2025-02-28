@@ -1,0 +1,18 @@
+2025-02-28 15:33:39,075 - ad_tracker - INFO - Starting Ad Tracker
+2025-02-28 15:33:39,140 - ad_tracker - INFO - Processing autoplius search: BMW 3 Series
+2025-02-28 15:33:39,140 - ad_tracker - INFO - Scraping Autoplius: https://autoplius.lt/skelbimai/naudoti-automobiliai?make_id=67&model_id=382
+2025-02-28 15:33:47,656 - ad_tracker - ERROR - Request failed: 403 Client Error: Forbidden for url: https://autoplius.lt/skelbimai/naudoti-automobiliai?make_id=67&model_id=382
+2025-02-28 15:33:47,661 - ad_tracker - INFO - Found 0 total ads
+2025-02-28 15:33:47,662 - ad_tracker - INFO - Found 0 new ads
+2025-02-28 15:33:47,662 - ad_tracker - INFO - Found 0 matching ads
+2025-02-28 15:33:47,662 - ad_tracker - INFO - Processing autoplius search: Audi A4
+2025-02-28 15:33:47,663 - ad_tracker - INFO - Scraping Autoplius: https://autoplius.lt/skelbimai/naudoti-automobiliai?make_id=80&model_id=511
+2025-02-28 15:33:54,536 - ad_tracker - ERROR - Request failed: 403 Client Error: Forbidden for url: https://autoplius.lt/skelbimai/naudoti-automobiliai?make_id=80&model_id=511
+2025-02-28 15:33:54,540 - ad_tracker - INFO - Found 0 total ads
+2025-02-28 15:33:54,541 - ad_tracker - INFO - Found 0 new ads
+2025-02-28 15:33:54,541 - ad_tracker - INFO - Found 0 matching ads
+2025-02-28 15:33:54,541 - ad_tracker - INFO - Skipping disabled source: skelbiu
+2025-02-28 15:33:54,542 - ad_tracker - INFO - Skipping disabled source: aruodas
+2025-02-28 15:33:54,543 - ad_tracker - INFO - Completed tracking run at 2025-02-28T15:33:54.542957
+2025-02-28 15:33:54,556 - ad_tracker - INFO - Setting up schedule to run every 1 hours
+2025-02-28 15:35:07,108 - ad_tracker - INFO - Stopping Ad Tracker

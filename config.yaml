@@ -1,0 +1,47 @@
+sources:
+  autoplius:
+    enabled: true
+    urls:
+      - name: "BMW 3 Series"
+        url: "https://autoplius.lt/skelbimai/naudoti-automobiliai?make_id=67&model_id=382"
+        criteria:
+          max_price: 15000
+          min_price: 5000
+          keywords:
+            - sport
+            - M-paketas
+      - name: "Audi A4"
+        url: "https://autoplius.lt/skelbimai/naudoti-automobiliai?make_id=80&model_id=511"
+        criteria:
+          max_price: 12000
+          min_price: 6000
+          keywords:
+            - quattro
+            - s-line
+  
+  skelbiu:
+    enabled: false
+    urls:
+      - name: "Apartments in Vilnius"
+        url: "https://www.skelbiu.lt/skelbimai/butai-vilniuje/"
+
+  aruodas:
+    enabled: false
+    urls:
+      - name: "Sample Search"
+        url: "https://www.aruodas.lt/example"
+
+scraping:
+  delay: 5  # seconds between requests
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+email:
+  enabled: true
+  sender_email: "your_email@gmail.com"
+  receiver_email: "your_email@gmail.com"
+  password: "your_app_password"  # Better to use environment variable
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+
+schedule:
+  interval_hours: 1 

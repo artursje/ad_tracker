@@ -1,0 +1,13 @@
+[Unit]
+Description=Ad Tracker Service
+After=network.target
+
+[Service]
+User=yourusername
+WorkingDirectory=/path/to/ad-tracker
+ExecStart=/usr/bin/python3 /path/to/ad-tracker/main.py
+Restart=on-failure
+Environment=EMAIL_PASSWORD=your_secure_password
+
+[Install]
+WantedBy=multi-user.target 
